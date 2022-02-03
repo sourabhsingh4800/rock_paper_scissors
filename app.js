@@ -16,13 +16,13 @@ function getcomputerchoice(){
 }
 function converttoword(letter){
     if(letter=== "r"){
-        return "ROCK";
+        return "ROCK"
     }
     if(letter=== "p"){
-        return "PAPER";
+        return "PAPER"
     }
     else{
-        return "SCISSORS";
+        return "SCISSORS"
     }
 }
 function win(userchoice,computerchoice){
